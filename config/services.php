@@ -32,7 +32,7 @@ return [
     'google' => [
         'client_id'     => env('GOOGLE_CLIENT_ID', '944735321469-oic0uvdp6mudi42kar9p1d0lo1sb5bof.apps.googleusercontent.com'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET', 'UFoNPYb-wpQcVi1UCIbZZKxr'),
-        'redirect'      => env('GOOGLE_REDIRECT','http://quanlysach.herokuapp.com/auth/google/callback')
+        'redirect'      => env('GOOGLE_REDIRECT','http://web-gundam.herokuapp.com/auth/google/callback')
     ],
 
 ];

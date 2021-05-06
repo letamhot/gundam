@@ -30,9 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '944735321469-oic0uvdp6mudi42kar9p1d0lo1sb5bof.apps.googleusercontent.com',
-        'client_secret' => 'UFoNPYb-wpQcVi1UCIbZZKxr',
-        'redirect' => 'http://gundam.net/auth/google/callback',
+        'client_id'     => env('GOOGLE_CLIENT_ID', '944735321469-oic0uvdp6mudi42kar9p1d0lo1sb5bof.apps.googleusercontent.com'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET', 'UFoNPYb-wpQcVi1UCIbZZKxr'),
+        'redirect'      => env('GOOGLE_REDIRECT','http://quanlysach.herokuapp.com/auth/google/callback')
     ],
 
 ];
